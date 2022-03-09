@@ -1,4 +1,5 @@
 package com.suweny.service;
 
-public class UserService {
+public interface UserService {
+    public void save();
 }
