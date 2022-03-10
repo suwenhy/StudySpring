@@ -1,5 +1,8 @@
 package com.suweny.demo;
 
+import com.suweny.dao.UserDao;
+import com.suweny.dao.impl.UserDaoImpl;
+import com.suweny.domain.User;
 import com.suweny.service.UserService;
 import com.suweny.service.impl.UserServiceImpl;
 import org.springframework.context.ApplicationContext;
