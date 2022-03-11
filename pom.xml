@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Spring_ioc</module>
+        <module>Spring_ioc_anno</module>
     </modules>
 
     <properties>
