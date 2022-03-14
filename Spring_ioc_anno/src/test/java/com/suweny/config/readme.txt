@@ -1,0 +1,1 @@
+这里的两个config类就是Spring的配置类，替代了ApplicationContext.xml文件

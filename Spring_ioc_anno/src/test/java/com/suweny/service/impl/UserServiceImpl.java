@@ -4,21 +4,27 @@ import com.suweny.dao.UserDao;
 import com.suweny.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
-@Component("userService")
+import javax.annotation.Resource;
+
+@Service("userService")
 
 public class UserServiceImpl implements UserService {
-    @Autowired
-    @Qualifier("userDao")
+    /*@Autowired//根据类型自动选择Bean进行注入
+    @Qualifier("userDao")*/
+    @Resource(name = "userDao")
     private UserDao userDao;
-
+    @Value("${jdbc.driver}")
+    private String driver;
     public void setUserDao(UserDao userDao) {
         this.userDao = userDao;
     }
 
     public void save(){
     userDao.save();
+        System.out.println(driver);
     }
 
 }
