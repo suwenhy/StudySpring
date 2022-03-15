@@ -11,6 +11,7 @@
     <modules>
         <module>Spring_ioc</module>
         <module>Spring_ioc_anno</module>
+        <module>Spring_MVC</module>
     </modules>
 
     <properties>
