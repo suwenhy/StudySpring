@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="Spring_MVC:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/Spring_MVC_war_exploded</output-path>
+  <artifact type="exploded-war" name="Spring_ioc:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spring_ioc_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="Spring_MVC" />
+          <element id="module-output" name="Spring_ioc" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.5.RELEASE" />
@@ -13,15 +13,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.5.RELEASE" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.32" />
-          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.1" />
-          <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.10" />
-          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3.2" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.5.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.5.RELEASE" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="Spring_MVC/web/Web" />
+      <element id="javaee-facet-resources" facet="Spring_ioc/web/Web" />
     </root>
   </artifact>
 </component>
